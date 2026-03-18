@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - My Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* 自定义滚动条等样式 */
+    body { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ZP5T20X4M"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0ZP5T20X4M');
+    </script>
+  
+</head>
+<body class="bg-gray-50 text-gray-900">
+  
+    
+  <nav class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md border-b border-gray-100 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex-shrink-0 flex items-center">
+          <a href="./index.html" class="text-xl font-bold text-gray-900 tracking-tight">MY STORE</a>
+        </div>
+        <div class="hidden md:flex space-x-8">
+          <a href="./index.html" class="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Home</a>
+          <a href="#" class="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">New Arrivals</a>
+          <a href="#" class="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <main class="pt-16 min-h-screen flex flex-col">
+      <div class="relative bg-gray-900 h-[500px]">
+        <div class="absolute inset-0 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="w-full h-full object-cover opacity-60">
+        </div>
+        <div class="relative max-w-7xl mx-auto h-full flex flex-col justify-center items-center text-center px-4">
+          <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">New Arrivals</h1>
+          <div class="mt-10">
+            <a href="#products" class="inline-block bg-white border border-transparent py-3 px-8 rounded-md font-medium text-gray-900 hover:bg-gray-100">Shop Now</a>
+          </div>
+        </div>
+      </div>
+      <div id="products" class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 w-full">
+        <h2 class="text-2xl font-bold tracking-tight text-gray-900 mb-8">Featured Products</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-6 xl:gap-x-8">
+          
+    <a href="./product_1.html" class="group block">
+      <div class="w-full aspect-[1/1] bg-gray-200 rounded-lg overflow-hidden relative">
+        <img src="./images/p_1.png" alt="测试商品名称 (必填)" class="w-full h-full object-center object-cover group-hover:opacity-75 transition-opacity duration-300">
+      </div>
+      <h3 class="mt-4 text-sm text-gray-700 truncate">测试商品名称 (必填)</h3>
+      <p class="mt-1 text-lg font-medium text-gray-900">19.9 USD</p>
+    </a>
+  
+    <a href="./product_2.html" class="group block">
+      <div class="w-full aspect-[1/1] bg-gray-200 rounded-lg overflow-hidden relative">
+        <img src="./images/p_2.jpeg" alt="asdfa" class="w-full h-full object-center object-cover group-hover:opacity-75 transition-opacity duration-300">
+      </div>
+      <h3 class="mt-4 text-sm text-gray-700 truncate">asdfa</h3>
+      <p class="mt-1 text-lg font-medium text-gray-900">123 USD</p>
+    </a>
+  
+    <a href="./product_3.html" class="group block">
+      <div class="w-full aspect-[1/1] bg-gray-200 rounded-lg overflow-hidden relative">
+        <img src="./images/p_3.png" alt="12" class="w-full h-full object-center object-cover group-hover:opacity-75 transition-opacity duration-300">
+      </div>
+      <h3 class="mt-4 text-sm text-gray-700 truncate">12</h3>
+      <p class="mt-1 text-lg font-medium text-gray-900">12 USD</p>
+    </a>
+  
+        </div>
+      </div>
+    </main>
+    
+  <footer class="bg-gray-50 border-t border-gray-200 mt-auto">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p class="text-base text-gray-400">&copy; 2024 My Store. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  
+</body>
+</html>
